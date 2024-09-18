@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+.logo:hover{
+    text-shadow: 0px 0px 10px rgb(214, 22, 22),0px 0px 10px rgb(34, 4, 96),0px 0px 10px rgb(81, 206, 19),0px 0px 10px rgb(207, 220, 22);
+    transition: 0.4s ease-in-out;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    display:flex;
+    margin-left: 200px;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: orange;
+}
+.web{
+    
+    color: white;
+    margin-left: 50px;
+    width: 100%;
+    height: 200px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 200px;
+    /* line-height: 20mm; */
+}
+span{
+    color: orange;
+    font-weight: 1000;
+    font-size: 80px;
+}
+.par{
+    font-size:small;
+    font-weight: 100;
+    padding-top: 20px;
+    font-family:'satoshi';
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 120px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: orangered;
+    border-style: none;
+    
+}
+.search{
+    position: relative;
+    left: 300px;
+   margin-top: 17px;
+    width: 300px;
+    height:fit-content;
+    border: none;
+    border-right: none;
+}
+.srch{
+    padding: 12px;
+    background-color: orangered;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+ 
+}   
+input{
+    padding: 12px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background: transparent;
+}
+input:hover{
+    background-color: #294D61;
+}
+.srch:hover{
+    color: rgba(5, 9, 1, 0.923);
+    background-color: red;
+}
+.box{
+    /* border-style: solid; */
+    box-shadow: 0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray;
+    width: 300px;
+    height:400px;
+    position: relative;
+    left: 1000px;
+    bottom: 380px;
+    padding: 0;
+    backdrop-filter: blur(10px);
+} 
+.login-btn{
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+   margin: 20px;
+   color: rgb(229, 76, 21); 
+   width: 250px;
+   padding: 12px;
+   font-size: medium;
+   font-weight: bold;
+   background-color:rgb(241, 228, 228);
+   
+   
+}
+ .txt1{
+    padding: 12px;
+    border-radius: 5px;
+    text-align: left;
+     margin-left: 50px;
+    margin-top: 15px;
+    color: rgb(12, 12, 12);
+  
+ }
+ 
+ .pass{
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+   margin-top: 15px;
+   /* color: white;  */
+}
+.login-btn:hover{
+    border-color: blue;
+}
+.login-btn2{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    width: 250px;
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background-color: orangered;
+}
+.par2{
+    text-align: center;
+    color:white ;
+}
+.par2 a{
+    text-decoration: none;
+    color: orangered;
+}
+.icon{
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 50px;
+    
+}
+.icon a{
+    color: rgb(255, 246, 246);
+    padding-left: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn2 a{
+    text-decoration: none;
+    color: black;
+}
+
+ 
+
+@media only screen and (max-width:1200px){
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 109vh;
+    }
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    display:flex;
+    margin-left: 50px;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 27px;
+    font-size: 14px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+.search{
+    position: relative;
+    left: -20px;
+    margin-top: 17px;
+    width: 300px;
+    height:fit-content;
+    border: none;
+    border-right: none;
+}
+.srch{
+    padding: 12px;
+    background-color: orangered;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+ 
+}  
+.box{
+    /* border-style: solid; */
+    box-shadow: 0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray;
+    width: 300px;
+    height:400px;
+    position: relative;
+    left: 850px;
+    bottom: 380px;
+    padding: 0;
+    backdrop-filter: blur(10px);
+} 
+.login-btn{
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+   margin: 20px;
+   color: rgb(229, 76, 21); 
+   width: 250px;
+   padding: 12px;
+   font-size: medium;
+   font-weight: bold;
+   background-color:rgb(241, 228, 228);
+   
+   
+}
+ .txt1{
+    padding: 12px;
+    border-radius: 5px;
+    text-align: left;
+     margin-left: 50px;
+    margin-top: 15px;
+    color: rgb(12, 12, 12);
+  
+ }
+ 
+ .pass{
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+   margin-top: 15px;
+   /* color: white;  */
+}
+.login-btn:hover{
+    border-color: blue;
+}
+.login-btn2{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    width: 250px;
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background-color: orangered;
+}
+.par2{
+    text-align: center;
+    color:white ;
+}
+.par2 a{
+    text-decoration: none;
+    color: orangered;
+}
+.icon{
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 50px;
+    
+}
+.icon a{
+    color: rgb(255, 246, 246);
+    padding-left: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn2 a{
+    text-decoration: none;
+    color: black;
+}
+}
+@media only screen and (max-width:600px){
+    .menu{
+        width: 600vw;
+        float: left;
+        height: 70px;
+    }
+    ul{
+        display:flex;
+        margin-left: -210px;
+    }
+    ul li{
+        list-style-type: none;
+        margin-left: 20px;
+        margin-top: 107px;
+        font-size: 14px;
+        
+    }
+    .icon{
+        width: 200px;
+        float: left;
+        height: 50px;
+    }
+    .logo{
+        color: orange;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-left: 100px;
+       
+    }
+    .search{
+        position: relative;
+        right: 20px;
+        margin-right: 1000px;
+        margin-top: 200px;
+        left: -320px;
+        margin-top: 157px;
+        display: flex;
+        
+        /* width: 300px; */
+        /* height:fit-content; */
+        border: none;
+        border-right: none;
+    }
+    .srch{
+        padding: 12px;
+        background-color: orangered;
+        width: 100px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        margin-left: 2px;
+        
+    }  
+    
+    .web{
+    
+        color: white;
+        /* text-align: center; */
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+        height: 200px;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 150px;
+        right: 50px;
+        /* line-height: 20mm; */
+    }
+    span{
+        color: orange;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+    .box{
+        /* border-style: solid; */
+        box-shadow: 0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray,0px 0px 10px gray;
+        width: 300px;
+        height:400px;
+        position: relative;
+        left: 100px;
+        bottom: -70px;
+        padding: 0;
+        backdrop-filter: blur(10px);
+    } 
+    .main{
+        height: 159vh;
+    }
+    .btn{
+        margin-left: 150px;
+        margin-top: 50px;
+        padding: 10px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: orangered;
+        border-style: none;
+        
+    
+    }
+    .par{
+        font-size:small;
+        font-weight: 100;
+        padding-top: 20px;
+        font-family:'satoshi';
+        
+        padding-right:100px ;
+    }
+}
+
+
+
+   
+   
+
